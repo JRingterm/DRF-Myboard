@@ -1,0 +1,14 @@
+#이 파일에 적힌 파일이나 폴더는 git의 add, commit, push에 영향을 받지 않는다.
+#올릴 필요 없는 파일들이나 올라가면 안되는 파일들을 여기에 적는다.
+
+__pycache__/
+*.py[cod]
+
+.Python
+myvenv/
+
+db.sqlite3
+.DS_Store
+
+.vscode/
+.env
